@@ -1,72 +1,16 @@
-# glas
-Glas - Rails on Ruby - Jekyll Theme 
-Preview: http://www.spaceg.github.io
+A [Jekyll](https://jekyllrb.com/) blog template made for simple, readable snippets of your brain drippings.
 
+[DEMO](http://adueck.github.io/cayman-blog/)
 
-GLAS  - DOM Structure
-### Structure ###
-<pre>
-.  
-|-- .gitignore  
-|-- README  
-|-- _config.yml 
-|-- _includes 
-|   |-- footer.html  
-|   |-- head.html 
-|   `-- header.html   
-|-- _layouts  
-|   |-- about.html  
-|   |-- archive.html 
-|   |-- default.html 
-|   |-- page.html  
-|   `-- post.html  
-|-- _posts  
-|   |-- 2016-01-18-gem-npm-ruby-gems-node.js.md 
-|   `-- 2016-01-18-create-commandlines-for-your-app.md
-|-- _sass
-|-- _assets  
-|   |-- css  
-|   |-- fonts
-|   |-- img
-|   |-- js 
-|   `-- post.html  
-|-- _feed.xml      
-`-- index.html  
-</pre>
+To get this going follow these simple steps:
 
+1. Fork, clone, or download the repository
+2. Edit <code>_config.yml</code>
+3. If you want, swap `img/cover.jpg` for your own header image
+3. Fill up the `_posts` folder with whatever you want to say
+4. run <code>jekyll build</code> and then <code>jekyll serve</code>  
+note: This will require the `jekyll-paginate` gem `$ gem install jekyll-paginate`
 
-Clone to Desktop
-<code>git clone https://github.com/SpaceG/glas.git  </code>
-Delete the cname file. 
+You can easily host your blog for free on [GitHub Pages](https://pages.github.com/)
 
-by The Way Fork and Star this Theme. Thanks a lot for your Support. 
-if you have any question, take a issue. 
-
-
-<code>cd Desktop </code><br>
-<code>cd glas </code><br>
-<code>$ jekyll serve </code>
-
-watch your localhost <code><strong>127.0.0.1:8000 </strong> </code> 
-
-The MIT License (MIT)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
+I made this Jekyll theme by adapting and modifying the [Cayman Theme](https://github.com/jasonlong/cayman-theme) by [Jason Lang](https://github.com/jasonlong), which is licensed under a [Creative Commons Attribution 4.0 International license](http://creativecommons.org/licenses/by/4.0/).

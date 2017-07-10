@@ -1,17 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
-<body class="home-template">
-  <div id="page" class="site">
-
+  <body>
 
     {% include header.html %}
 
-
-
-    <div class="page-content">
+    <section class="main-content">
       <div class="wrapper">
         {{ content }}
       </div>
@@ -20,12 +16,8 @@
     {% include footer.html %}
 
 
-            <div class="overlay"></div>
-  </div><!-- #page -->  
-
-
-    <script id="dsq-count-scr" src="//lucasgatsas.disqus.com/count.js" async></script>
-
   </body>
+
+    {% include scripts.html %}
 
 </html>
